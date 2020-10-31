@@ -1,0 +1,175 @@
+body{
+	
+}
+
+@keyframes proko{
+	0%{opacity: 50%; filter: blur(7px);}
+
+	50%{opacity: 00%;filter: blur(30px);}
+
+	100%{opacity:50%;filter: blur(7px);}
+}
+
+@keyframes proquu{
+	0%{opacity: 10%;left: 0px;}
+	10%{opacity: 00%;left: 3px;}
+	15%{opacity: 20%;left: 0px;}
+	20%{opacity: 0%;left: 2px;}
+	25%{opacity: 05%;left: 0px;}
+	30%{opacity: 0%;left: 3px;}
+	35%{opacity: 10%;left: 0px;}
+	40%{opacity: 0%;left: 2px;}
+	50%{opacity: 10%;left: 0px;}
+	60%{opacity: 0%;left: 3px;}
+	70%{opacity: 20%;left: 1px;}
+	75%{opacity: 0%;left: 3px;}
+	80%{opacity: 10%;left: 2px;}
+	90%{opacity: 0%;left: 5px;}
+	100%{opacity:10%;left: 2px;}
+}
+
+@keyframes pro{
+	100%{transform: rotate(10800deg);}
+}
+
+html{
+	font-family: 'Noto Serif KR', serif; 
+	background-color: #494949
+}
+
+.play{
+	position: absolute;
+	z-index: 20;
+	opacity: 10%;
+}
+.bglayer{
+	z-index: 4;
+	opacity: 55%;
+	position: absolute;
+	top: 70;
+}
+.bg1{
+	position: absolute;
+	z-index: 0;
+	top: 70;
+}
+
+.zz{
+	z-index: 2;
+	position: absolute;
+	top: 70;
+
+	animation-name: proquu;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.bg{
+	position: fixed;
+	top:-10;
+	right: -10;
+	z-index: -2;
+	filter: blur(20px);
+	opacity: 60%;
+}
+
+.cd{
+	position: absolute;
+	margin-top: -310px;
+	margin-left: 1000px;
+	z-index: -3;
+	opacity: 100%;
+
+	animation-name: pro;
+	animation-duration: 300s;
+	animation-iteration-count: infinite;
+}
+
+
+.m{position: absolute; 
+	background: #c5d4ff; 
+    width:100px;
+    height:100px;
+    filter: blur(30px);
+	z-index:3;
+}
+
+.q1{
+	position: absolute;
+	font-size: 10em;
+	color: #8fa2aa;
+	top: -100px;
+	right: 60px;
+	z-index:  1;
+
+	animation-name: proko;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+
+
+.w1{
+	position: absolute;
+	font-size: 7em;
+	color: #8fa2aa;
+	top: -300px;
+	right: 320px;
+	z-index: 1;
+
+	animation-name: proko;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+.e1{
+	position: absolute;
+	font-size: 11em;
+	color: #8fa2aa;
+	top: -450px;
+	right: 1020px;
+	z-index: 1;
+
+	animation-name: proko;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+.r1{
+	position: absolute;
+	font-size: 9em;
+	color: #8fa2aa;
+	top: -150px;
+	right: 620px;
+	z-index: 1;
+
+	animation-name: proko;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+.t1{
+	position: absolute;
+	font-size: 6em;
+	color: #e6f6ff;
+	top: 250px;
+	right: 1220px;
+	z-index: 1;
+
+	animation-name: proko;
+	animation-duration: 7.3s;
+	animation-iteration-count: infinite;
+}
+
+.y1{
+	position: absolute;
+	font-size: 7em;
+	color: #8fa2aa;
+	top: 300px;
+	right: 820px;
+	z-index: 1;
+
+	animation-name: proko;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
