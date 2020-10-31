@@ -75,9 +75,9 @@ html{
 
 .cd{
 	position: absolute;
-	margin-top: -310px;
-	margin-left: 1000px;
-	z-index: -3;
+	margin-top: -210px;
+	margin-left: 700px;
+	z-index: -1;
 	opacity: 100%;
 
 	animation-name: pro;
